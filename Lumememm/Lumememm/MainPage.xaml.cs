@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Threading;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -34,18 +34,18 @@ namespace Lumememm
         private void inv_Clicked(object sender, EventArgs e)
         {
             stext.Text = "Snowman is invisble";
-            small.BackgroundColor = Color.White;
+            small.Opacity = 0;
             small.BorderColor = Color.White;
-            big.BackgroundColor = Color.White;
+            big.Opacity = 0;
             big.BorderColor = Color.White;
         }
 
         private void vis_Clicked(object sender, EventArgs e)
         {
             stext.Text = "Snowman is visible";
-            small.BackgroundColor = Color.White;
+            small.Opacity = 1;
             small.BorderColor = Color.Gray;
-            big.BackgroundColor = Color.White;
+            big.Opacity = 1;
             big.BorderColor = Color.Gray;
         }
 
