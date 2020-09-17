@@ -14,7 +14,7 @@ namespace Lumememm
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            MainPage = new Absolute();
         }
 
         protected override void OnStart()

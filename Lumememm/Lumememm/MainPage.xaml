@@ -65,12 +65,6 @@
                         HorizontalOptions="Start"
                         Clicked="vis_Clicked"
                         />
-                <Button x:Name="kill" 
-                        Text="Kill (Not working)" 
-                        BackgroundColor="DarkRed"
-                        HorizontalOptions="EndAndExpand"
-                        Clicked="kill_Clicked"
-                        />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

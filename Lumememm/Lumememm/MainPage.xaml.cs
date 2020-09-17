@@ -57,10 +57,5 @@ namespace Lumememm
             small.BackgroundColor = randomColor2;
             big.BackgroundColor = randomColor3;
         }
-
-        private async void kill_Clicked(object sender, EventArgs e)
-        {
-            //await Task.Run(() => Thread.Sleep(1000))
-        }
     }
 }
